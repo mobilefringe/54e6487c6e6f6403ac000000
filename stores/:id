@@ -158,7 +158,7 @@ background-color: #FFFFFF ;
                         <div class="promo_desc_box">
                             <a href="../promotions/{{slug}}"><p class="promo_header right_column_header">{{name}}</p></a>
                             <p class="directory_content promo_date">{{dates}}</p>
-                            <p>{{rich_description}}</p>
+                            <p>{{description}}</p>
                             <a href="../promotions/{{slug}}" class="btn btn-primary pull-left">Read More</a> </div>
                         </div>
                     </div>
