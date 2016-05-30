@@ -294,7 +294,6 @@
         
         var isMobile = ( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) );
         coords = this.value.split(",");
-        console.log(coords)
         var zoomData = $('#png_map').smoothZoom('getZoomData');
         x_coord = parseInt(coords[0]) + 500
         y_coord = parseInt(coords[1]) + 300
