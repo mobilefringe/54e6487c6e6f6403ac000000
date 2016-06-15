@@ -458,6 +458,9 @@ background-color: #FFFFFF ;
             } else {
                 i = "AM"
             }
+            if (h = 12) {
+                h=12
+            }
             return h+":"+m+" "+i;
         }
         
