@@ -131,33 +131,46 @@
                     <p class="directory_content">{{name}}</p>
                     <p class="directory_content">{{address1}}</p>
                     <p class="directory_content">{{city}}, {{province_state}} {{postal_code}}</p>
-                     <br>
-                                     <p class="directory_content"><strong>Lisa Peatt</strong> 
-                    <br>General Manager
-                    <br>416-591-2220 ext 22
-                    <br><a href="mailto:lpeatt@bentallkennedy.com ">lpeatt@bentallkennedy.com</a>
-                      </p>
                     <br>
-                    <p class="directory_content"><strong>Jennifer Crispel</strong> 
-                   <br>Director, Leasing*
-                   <br>1.866.681.2715 
-                   <br><a href="mailto:jcrispel@bentallkennedy.com" target="_blank">jcrispel@bentallkennedy.com</a>
-                   <br>*Sales Representative<br>
-                   </p>
-                   <br>
-                     <p class="directory_content"><strong>Stephanie Vujaklija</strong> 
+                    <p class="directory_content"><strong>Stephanie Vujaklija</strong> 
                     <br>Assistant Property Manager
                     <br>416-591-2220  ext 21
                     <br><a href="mailto:svujaklija@bentallkennedy.com">svujaklija@bentallkennedy.com</a>
                     </p>
                     <br>
+                    <p class="directory_content"><strong>Mark Moteeram</strong> 
+                    <br>Operations Manager
+                    <br>416-591-2220 ext 24
+                    <br><a href="mailto:mmoteeram@bentallkennedy.com">mmoteeram@bentallkennedy.com</a>
+                    </p>
+                    <br>
+                    <p class="directory_content"><strong>Ammar Al-Hussain</strong> 
+                    <br>Security Director
+                    <br>416-591-2220 ext 30
+                    <br><a href="mailto:ammar.alhussaini@garda.com">ammar.alhussaini@garda.com</a>
+                    </p>
+                     <br>
                  
-                  
+                 
                    <p class="directory_content"><strong>Jessica Kim</strong> 
                    <br>Marketing Manager
                    <br>416-591-2220 ext 31
                    <br><a href="mailto:jkim@bentallkennedy.com" target="_blank">jkim@bentallkennedy.com</a>
-                    </p>
+                     </p>
+                        <br>
+                    <p class="directory_content"><strong>Jennifer Crispel</strong> 
+                   <br>Director, Leasing*
+                   <br>1-866-681-2715 
+                   <br><a href="mailto:jcrispel@bentallkennedy.com" target="_blank">jcrispel@bentallkennedy.com</a>
+                   <br>*Sales Representative<br>
+                   </p>
+                   <br>
+                    <p class="directory_content"><strong>Lisa Peatt</strong> 
+                    <br>General Manager
+                    <br>416-591-2220 ext 22
+                    <br><a href="mailto:lpeatt@bentallkennedy.com ">lpeatt@bentallkennedy.com</a>
+                    
+                    <br>
                 </script>
             </div>
             
