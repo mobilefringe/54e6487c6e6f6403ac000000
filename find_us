@@ -1,0 +1,88 @@
+<div id="loading_screen">
+    <img alt="loading" src="//kodekloud.s3.amazonaws.com/sites/5447ebb66e6f641987020000/3604f5c26997bea3de504de139debcec/loading.gif"/>
+</div>
+<div  id="main_content" style="display:none">
+    <ul class="breadcrumb">
+        <li><a href="/home">Home</a> </li>
+        <li><a href="/home">Contact Us</a> </li>
+        <li class="active">Find Us</li>
+    </ul>
+    <div class="page_banner">
+        Find Us
+    </div>
+    <div class="inside_page_content">
+        <div class="left_column">
+            <iframe class="gmap" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2886.574530718601!2d-79.3804447!3d43.6570197!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b34cacb611c5f%3A0x4c69204eabe095dc!2s10+Dundas+St+E%2C+Ryerson+University%2C+Toronto%2C+ON+M5B!5e0!3m2!1sen!2sca!4v1422385569071" style="border:0" title="Map">Directions</iframe>
+            <h2>Transit</h2>
+
+<p><br />
+<strong>TTC</strong><br />
+10 Dundas East&nbsp; is easily accessible by public transit. Dundas Station, on the Yonge &ndash;University Line, is directly connected to the complex.</p>
+
+<p>&nbsp;</p>
+
+<p><strong>Subway:&nbsp;</strong> Via the Yonge-University line - exit at <a href="//ttc.ca/Subway/Stations/Dundas/station.jsp" target="_blank">Dundas Station</a>.&nbsp; Entrance to 10 Dundas East is connected underground from the northbound platform, once you exit the pay gate, to the left.<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<br />
+<strong>Buses &amp; Street Car:</strong> Take either <a href="//www.ttc.ca/Schedule/schedule.jsp?Route=97S&amp;Stop=s.b._on_YONGE_at_DUNDAS" target="_blank">97B Yonge Bus</a>, <a href="//www.ttc.ca/Routes/320/Northbound.jsp" target="_blank">320 Yonge All Night Bus</a> or <a href="//www.ttc.ca/Routes/505/Eastbound.jsp" target="_blank">505 DundasStreet Car</a> and get off Dundas at Yonge stop.</p>
+
+<p>For more information about, routes, schedules, wheeltrans, services and fares click on the <a href="//www.ttc.ca/" target="_blank">TTC link</a> or call the TTC info line (416) 393-INFO (24 hours a day, 7 days a week). &nbsp;<br />
+&nbsp;
+</p>
+
+<h2>PATH &ndash;Toronto&rsquo;s Downtown Walkway</h2>
+
+<p>10 Dundas East is connected to the underground PATH. 10 Dundas East&nbsp; is &ldquo;N5&rdquo; on the PATH Map or located under D on the Index.&nbsp; For the PATH Map, <a href="//www1.toronto.ca/wps/portal/contentonly?vgnextoid=f537b454b35a2410VgnVCM10000071d60f89RCRD&vgnextchannel=04708b7a29891410VgnVCM10000071d60f89RCRD" target="_blank">click here.</a></p>
+
+        </div>
+        <div class="right_column">
+            <p class="right_column_header">centre information</p>
+            <div id="centre_info_container">
+                <script id="centre_info_template" type="x-tmpl-mustache/text">
+                    <p class="directory_content">{{name}}</p>
+                    <p class="directory_content">{{address1}}</p>
+                    <p class="directory_content">{{city}}, {{province_state}} {{postal_code}}</p>
+                    
+                </script>
+            </div>
+            
+            
+        </div>
+    </div>
+</div>
+<script>
+    $(document).ready(function() {
+        function renderAll (){
+            var propertyDetails = getPropertyDetails();
+            renderPageData('#centre_info_container','#centre_info_template',propertyDetails, 'property_details')
+            $("#loading_screen").hide();
+            $("#main_content").show();
+        }
+        
+    
+        function renderPageData(container, template, collection, type){
+            var item_list = [];
+            var item_rendered = [];
+            var template_html = $(template).html();
+            Mustache.parse(template_html);   // optional, speeds up future uses
+            if (type == "property_details"){
+                item_list.push(collection);
+                collection = []
+                collection = item_list;
+            }
+            $.each( collection , function( key, val ) {
+                var rendered = Mustache.render(template_html,val);
+                item_rendered.push(rendered);
+    
+            });
+            
+            $(container).show();
+            $(container).html(item_rendered.join(''));
+        };
+
+        loadMallData(renderAll);  
+
+    
+  
+    });
+    
+</script>
