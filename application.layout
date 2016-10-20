@@ -97,7 +97,7 @@
             imagePath: '//cdn.jsdelivr.net/jquery.jreject/1.0.2/images/'
         });      
     });
-    setEndPoint('//10dundaseast.mallmaverick.com/api/v3/twinpines/all.json');
+    setEndPoint('//10dundaseast.mallmaverick.com/api/v3/10dundaseast/all.json');
     sessionStorage.setItem('primary_locale', 'en-CA');
     sessionStorage.setItem('secondary_locale', 'fr-CA');
 </script>
