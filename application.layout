@@ -115,6 +115,10 @@
     .breadcrumb a {
         color:black !important;
     }
+    .breadcrumb a:hover {
+        color:black !important;
+    }
+    
     .right_column_header {
     color: black;
     }
