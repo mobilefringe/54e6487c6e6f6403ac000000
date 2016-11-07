@@ -109,7 +109,7 @@
     
     /*hyperlinks*/
     a{
-        color:#009cde ;
+        color:#999999;
         text-decoration:inherit;
     }
     .breadcrumb a {
