@@ -133,8 +133,11 @@
         color:#c8c8c8 !important;
         
     }
+    footer a:hover, footer a:active {
+    color:#38bba0 !important;
+    text-decoration: none;
+}
     
-    /*hyperlink hover color*/
     
     .site-map-section a:hover {
         color:#c8c8c8 !important;
