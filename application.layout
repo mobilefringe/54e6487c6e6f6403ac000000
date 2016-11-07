@@ -154,8 +154,8 @@
         border:40px solid #bfbfbf;
     }
     .btn-primary{
-        background: #009cde !important;
-        border-color:#0076a8 !important;
+        background: black !important;
+        border-color:black !important;
         text-align:center;
         color:white !important;
     }
@@ -164,8 +164,8 @@
        width:100% !important;
    }
     .btn-primary:hover{
-        background: #009cde !important;
-        border-color:#0076a8 !important;
+        background: black !important;
+        border-color:black !important;
         text-align:center;
         color:white !important;
     }
