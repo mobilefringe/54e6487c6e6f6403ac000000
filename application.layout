@@ -112,7 +112,9 @@
         color:#009cde ;
         text-decoration:inherit;
     }
-    
+    .breadcrumb a {
+        color:black !important;
+    }
     .right_column_header {
     color: black;
     }
