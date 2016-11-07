@@ -453,7 +453,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
     
 }
 .right_column_header{
-    color:black;
+    color:#0076a8;
     font-size:20px;
     text-transform:uppercase;
     margin-bottom:0;
@@ -4735,9 +4735,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .breadcrumb > li {
   display: inline-block;
-}
-.breadcrumb > li a{
-  color:black;
 }
 .breadcrumb > li + li:before {
   content: ">>\00a0";
