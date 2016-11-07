@@ -112,6 +112,12 @@
         color:#999999;
         text-decoration:inherit;
     }
+    
+    /*hyperlink hover color*/
+    a:hover{
+        color:#38bba0 !important;
+    }
+    
     .breadcrumb a {
         color:black !important;
     }
