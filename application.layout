@@ -109,7 +109,7 @@
     
     /*hyperlinks*/
     a{
-        color:#999999;
+        color:#38bba0;
         text-decoration:inherit;
     }
     
