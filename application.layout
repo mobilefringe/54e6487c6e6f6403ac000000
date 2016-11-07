@@ -109,7 +109,7 @@
     
     /*hyperlinks*/
     a{
-        color:#38bba0;
+        color:#999999;
         text-decoration:inherit;
     }
     
@@ -135,9 +135,7 @@
     }
     
     /*hyperlink hover color*/
-    a:hover{
-        color:#009cde !important;
-    }
+    
     .site-map-section a:hover {
         color:#c8c8c8 !important;
     }
