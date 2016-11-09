@@ -104,7 +104,7 @@
 <style>
     /*custom styles*/
     a .directory_content:hover{
-        color: #009cde !important;
+        color: #38bba0 !important;
     }
     
     /*hyperlinks*/
