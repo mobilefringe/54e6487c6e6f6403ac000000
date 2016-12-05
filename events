@@ -58,7 +58,7 @@
             var propertyDetails = getPropertyDetails();
             renderPageData('#centre_info_container','#centre_info_template',propertyDetails, 'property_details')
             all_events = getEventsList(); 
-            all_events = all_events.reverse();
+          
             events_array = []
             $.each( all_events , function( key, val ){
                 // today = new Date();
