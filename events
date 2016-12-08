@@ -55,9 +55,9 @@
 <script>
     $(document).ready(function() {
         function renderAll (){
-            var propertyDetails = getPropertyDetails().sortBy(function(o){ return o.start_date });;
+            var propertyDetails = getPropertyDetails();;
             renderPageData('#centre_info_container','#centre_info_template',propertyDetails, 'property_details')
-            all_events = getEventsList(); 
+            all_events = getEventsList().sortBy(function(o){ return o.start_date }); 
           
             events_array = []
             $.each( all_events , function( key, val ){
