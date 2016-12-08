@@ -57,7 +57,7 @@
         function renderAll (){
             var propertyDetails = getPropertyDetails();;
             renderPageData('#centre_info_container','#centre_info_template',propertyDetails, 'property_details')
-            all_events = getEventsList().sortBy(function(o){ return o.start_date }); 
+            all_events = getEventsList().sortBy(function(o){ return o.start_date }).reverse(); 
           
             events_array = []
             $.each( all_events , function( key, val ){
